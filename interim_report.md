@@ -53,7 +53,8 @@ The dataset was cleaned using Python:
 ---
 
 ## 5. Early Insights  
-Initial analysis shows variation in user satisfaction across banks based on ratings.
+Initial analysis shows variation in user satisfaction across banks based on ratings.## 6. Visualization
+A bar chart was created showing review distribution across banks.
 
 - BOA and Dashen have slightly higher review counts and more consistent user feedback
 - CBE shows slightly lower review count but still within expected range
@@ -62,14 +63,14 @@ Further analysis will include sentiment classification and thematic clustering.
 
 ---
 
-## 6. Challenges  
+## 7. Challenges  
 - Google Play scraping limitations restricted deeper historical data access
 - Some variation in available review volume per app
 - Rate limits required careful adjustment of scraping size
 
 ---
 
-## 7. Next Steps  
+## 8. Next Steps  
 The next phase of the project will include:
 - Sentiment analysis using NLP models (DistilBERT / VADER)
 - Theme extraction using TF-IDF and spaCy
@@ -78,5 +79,17 @@ The next phase of the project will include:
 
 ---
 
-## 8. Conclusion  
+## 9. Conclusion  
 This interim stage successfully completed data collection and preprocessing. The dataset is now ready for advanced NLP analysis and database engineering tasks in the next phases.
+## Task 2: Sentiment and Thematic Analysis
+
+A sentiment analysis pipeline was implemented using VADER to classify reviews into positive, negative, and neutral categories.
+
+In addition, a rule-based thematic extraction approach was used to identify recurring issues such as:
+- Login issues
+- Transaction delays
+- OTP/authentication problems
+- App crashes and stability issues
+- UI/UX feedback
+
+This provides structured insights into user experience problems across banking applications.
